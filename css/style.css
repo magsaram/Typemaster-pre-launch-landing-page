@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --orange: #f16718;
+  --lightOrange: #ff9b62;
+  --darkGreyBlue: #162542;
+  --lightGreyBlue: #7b8bad;
+  --lightGrey: #e8eff2;
+}
+body {
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+}
