@@ -1,6 +1,6 @@
 # Typemaster-pre-launch-landing-page
 This is challenge from Frontend Mentor site.
-Flexboxes and positions - this project is full of them. There was great practise!
+Flexboxes and positions - this project is full of them. This was great practise!
 
 https://magsaram.github.io/Typemaster-pre-launch-landing-page/
 
