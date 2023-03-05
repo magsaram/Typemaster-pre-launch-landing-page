@@ -1,4 +1,4 @@
-# Master-pre-launch-landing-page
+# Typemaster-pre-launch-landing-page
 This is challenge from Frontend Mentor site.
 Flexboxes and positions - this project is full of them. There was great practise!
 
