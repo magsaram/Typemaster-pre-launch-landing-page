@@ -12,10 +12,13 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Frontend Mentor | Typemaster pre-launch landing page</title>
   </head>
   <body>
@@ -24,7 +27,6 @@
         >Pre-order now</a
       >
     </nav>
-
     <header>
       <div class="header-text">
         <h1>Typemaster keyboard</h1>
@@ -50,41 +52,53 @@
 
           <img src="./images/mobile/image-keyboard.jpg" alt="keyboard" />
         </picture>
-        <img src="./images/shared/pattern-square.svg" alt="grey square" />
+
+        <img
+          class="square"
+          src="./images/shared/pattern-square.svg"
+          alt="grey square"
+        />
       </div>
     </header>
     <main>
       <div class="keyboards">
-        <img src="./images/shared/pattern-square.svg" alt="grey square" />
-        <div class="orange">
-          <picture>
+        <div class="images">
+          <img
+            class="square"
+            src="./images/shared/pattern-square.svg"
+            alt="grey square"
+          />
+          <div class="orange">
+            <div class="orange-background"></div>
+            <picture>
+              <source
+                media="(min-width: 1024px)"
+                srcset="./images/desktop/image-phone-and-keyboard.jpg"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="./images/tablet/image-phone-and-keyboard.jpg"
+                ,
+              />
+              <img
+                src="./images/mobile/image-phone-and-keyboard.jpg"
+                alt="phone and keyboard"
+              />
+            </picture>
+            <div class="orange-backround"></div>
+          </div>
+          <pictures>
             <source
               media="(min-width: 1024px)"
-              srcset="./images/desktop/image-phone-and-keyboard.jpg"
+              srcset="./images/desktop/image-glass-and-keyboard.jpg"
             />
             <source
               media="(min-width: 768px)"
-              srcset="./images/tablet/image-phone-and-keyboard.jpg"
-              ,
+              srcset="./images/tablet/image-glass-and-keyboard.jpg"
             />
-            <img
-              src="./images/mobile/image-phone-and-keyboard.jpg"
-              alt="phone and keyboard"
-            />
-          </picture>
-          <div class="orangebackround"></div>
+            <img src="./images/mobile/image-glass-and-keyboard.jpg" alt="" />
+          </pictures>
         </div>
-        <pictures>
-          <source
-            media="(min-width: 1024px)"
-            srcset="./images/desktop/image-glass-and-keyboard.jpg"
-          />
-          <source
-            media="(min-width: 768px)"
-            srcset="./images/tablet/image-glass-and-keyboard.jpg"
-          />
-          <img src="./images/mobile/image-glass-and-keyboard.jpg" alt="" />
-        </pictures>
         <div class="main-text">
           <h2>Mechanical wireless keyboard</h2>
           <p>
