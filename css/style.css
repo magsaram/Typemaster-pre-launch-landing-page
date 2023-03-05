@@ -34,6 +34,8 @@ nav a {
 }
 header {
   width: 100%;
+  margin-bottom: 24px;
+  overflow: hidden;
 }
 .header-text {
   width: 85%;
@@ -73,10 +75,6 @@ h1 {
   font-weight: 700;
   text-transform: uppercase;
   color: var(--lightGreyBlue);
-}
-header {
-  margin-bottom: 24px;
-  overflow: hidden;
 }
 .header-img img {
   width: 100%;
@@ -174,4 +172,121 @@ footer {
 }
 footer span {
   font-weight: 700;
+}
+@media (min-width: 768px) {
+  nav {
+    margin: 40px auto 62px;
+    width: 85%;
+  }
+  nav a {
+    padding: 16px 26px;
+  }
+  header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    height: 425px;
+  }
+  .header-text {
+    width: 45%;
+    margin-left: 7%;
+  }
+  h1 {
+    margin-bottom: 34px;
+    font-size: 48px;
+  }
+  .header-text > p {
+    margin-bottom: 39px;
+    font-size: 16px;
+  }
+  .preorder {
+    margin-bottom: 0;
+  }
+  .preorder a {
+    background-color: var(--orange);
+    border-radius: 8px;
+    padding: 16px 26px;
+  }
+  .preorder p {
+    margin-left: 37px;
+  }
+  .header-img {
+    flex-basis: 50%;
+    position: absolute;
+    top: 0;
+    right: -20%;
+  }
+  .header-img img {
+    width: 478px;
+    height: 425px;
+    transform: translateX(0%);
+  }
+  .images {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 90%;
+    margin: 0 auto 72px;
+    height: 320px;
+    overflow: hidden;
+  }
+  .images img {
+    height: 100%;
+    transform: translateX(0%);
+    border-radius: 20px;
+  }
+  .orange {
+    position: relative;
+  }
+  .orange-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(0%);
+    background-color: var(--orange);
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+  }
+  .orange img {
+    opacity: 0.5;
+  }
+  .main-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto 142px;
+    text-align: left;
+  }
+  .main-text h2 {
+    margin: 0;
+    width: 40%;
+  }
+  .main-text p {
+    width: 60%;
+    margin-bottom: 0;
+  }
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto 142px;
+    text-align: left;
+  }
+  section div {
+    width: 45%;
+  }
+  .img-section {
+    margin: 0 0 40px;
+  }
+  section h3 {
+    margin: 0 0 24px;
+    width: 70%;
+  }
+  section p {
+    margin-bottom: 72px;
+  }
 }
